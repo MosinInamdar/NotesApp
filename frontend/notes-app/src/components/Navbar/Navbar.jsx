@@ -4,12 +4,13 @@ import { useNavigate } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar";
 
 const Navbar = ({ userInfo, onSearchNote, handleClearSearch }) => {
+  if (!userInfo) return null; // Return null if userInfo is not present
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
 
   const onLogout = () => {
     localStorage.clear();
-    navigate("/login");
+    navigate("/");
   };
 
   const handleSearch = () => {
