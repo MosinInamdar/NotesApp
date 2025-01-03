@@ -3,10 +3,9 @@ const bcrypt = require("bcrypt");
 
 const User = require("./models/user.model");
 const Note = require("./models/note.model");
-const config = require("./config.json");
 const mongoose = require("mongoose");
 
-mongoose.connect(config.connectionString);
+mongoose.connect(process.env.MONGODB);
 
 const express = require("express");
 const cors = require("cors");
