@@ -1,4 +1,3 @@
-```markdown
 # NotesApp  
 
 A simple, efficient, and user-friendly note-taking application to organize your thoughts, tasks, and ideas. NotesApp offers real-time synchronization, search functionality, and a clean interface to enhance your productivity.  
@@ -79,6 +78,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Inspired by the need for a simple yet effective note-taking solution.  
 - Thanks to the open-source community for amazing tools and resources.  
-
----
-```
