@@ -1,3 +1,6 @@
+// Single Responsibilty Principle: This component only displays search bar.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
 const SearchBar = ({ value, onChange, handleSearch, onClearSearch }) => {

@@ -1,3 +1,6 @@
+// Single Responsibilty Principle: This component only displays password input field.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+// ISP: Focused solely on displaying user password field.
 import { useState } from "react";
 
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";

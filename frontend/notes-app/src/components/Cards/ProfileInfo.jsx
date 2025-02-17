@@ -1,3 +1,6 @@
+// Single Responsibilty Principle: This component only displays user profile info.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+// ISP: Focused solely on displaying user details.
 import { getInitials } from "../../utils/helper";
 
 const ProfileInfo = ({ onLogout, userInfo }) => {

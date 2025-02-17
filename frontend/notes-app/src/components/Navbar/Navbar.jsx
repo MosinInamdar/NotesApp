@@ -1,3 +1,5 @@
+// Single Responsibilty Principle: This component only displays Navbar.
+
 import { useState } from "react";
 import ProfileInfo from "../Cards/ProfileInfo";
 import { useNavigate } from "react-router-dom";

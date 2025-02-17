@@ -1,3 +1,6 @@
+// Single Responsibilty Principle: This component only displays Toast card.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+
 import React, { useEffect } from "react";
 import { LuCheck } from "react-icons/lu";
 import { MdDeleteOutline } from "react-icons/md";

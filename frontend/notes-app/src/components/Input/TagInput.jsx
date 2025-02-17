@@ -1,3 +1,7 @@
+// Single Responsibilty Principle: This component only displays tags for notes card.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+// LSP: This TagInput component adheres to an expected interface
+// ISP: Focused solely on displaying user tags.
 import React, { useState } from "react";
 import { MdAdd, MdClose } from "react-icons/md";
 

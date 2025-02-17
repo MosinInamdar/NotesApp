@@ -1,3 +1,6 @@
+// Single Responsibilty Principle: This component only displays notes card.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+// ISP: Focused solely on displaying user notes.
 import moment from "moment";
 import { MdOutlinePushPin } from "react-icons/md";
 import { MdCreate, MdDelete } from "react-icons/md";

@@ -1,3 +1,6 @@
+// Single Responsibilty Principle: This component only displays empty notes card.
+// OCP: The component is designed to be extended with additional props without modifying its internal implementation.
+// ISP: Focused solely on displaying empty cards.
 import React from "react";
 
 const EmptyCard = ({ imgSrc, message }) => {
