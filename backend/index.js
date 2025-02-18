@@ -24,7 +24,7 @@ app.use(cors({ origin: "*" }));
 app.use("/", userRoutes);
 
 // Single Responsibility Principle: Delegate note-related endpoints to noteRoutes with a common prefix.
-app.use("/notes", noteRoutes);
+app.use("/", noteRoutes);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
